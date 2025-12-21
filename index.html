@@ -2,16 +2,42 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <title>Fullscreen Ad</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- REQUIRED: AdSense verification script -->
+    <style>
+        html, body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Force the ad container to fill the viewport */
+        .adsbygoogle {
+            display: block;
+            width: 100vw;
+            height: 100vh;
+        }
+    </style>
+
     <script async
         src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1224788270985109"
         crossorigin="anonymous">
     </script>
-
-    <title>My Site</title>
 </head>
 <body>
-    Page content
+
+    <ins class="adsbygoogle"
+         data-ad-client="ca-pub-1224788270985109"
+         data-ad-slot="9734577645"
+         data-ad-format="auto"
+         data-full-width-responsive="true">
+    </ins>
+
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+
 </body>
 </html>
